@@ -710,5 +710,6 @@ def smalladj(card_img):
 
 if __name__ == '__main__':
     r = onlyLicence()
-    # r = from_pic(filename)
+    s = from_pic(filename)
     print(r)
+    print(s)

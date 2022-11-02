@@ -756,7 +756,7 @@ def allstack():
 
 if __name__ == "__main__":
 
-    car_img_path = 'D:/ICS/simplyLicenceREC/a.jpg'
+    car_img_path = 'D:/ICS/simplyLicenceREC/b.jpg'
     plate_binary_img = remove_plate_upanddown_border(car_img_path)
 
     # 对车牌的二值图进行水平方向的切分，将字符分割出来
