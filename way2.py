@@ -706,7 +706,7 @@ def SVM_rocognition_character(character_list):
 
 def allstack():
     # 你要识别的图片
-    img = imread_photo("D:/ICS/simplyLicenceREC/a.jpg")
+    img = imread_photo("/img/a.jpg")
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     cv2.imshow('img', img)
     cv2.imshow('gray_img', gray_img)
@@ -756,7 +756,7 @@ def allstack():
 
 if __name__ == "__main__":
 
-    car_img_path = 'D:/ICS/simplyLicenceREC/b.jpg'
+    car_img_path = '/img/b.jpg'
     plate_binary_img = remove_plate_upanddown_border(car_img_path)
 
     # 对车牌的二值图进行水平方向的切分，将字符分割出来

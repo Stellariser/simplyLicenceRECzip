@@ -514,11 +514,11 @@ def from_pic(filename):
     return r
 
 
-filename = 'D:/ICS/simplyLicenceREC/4.jpg'
+filename = '/img/4.jpg'
 
 
 def onlyLicence():
-    card_img  = cv2.imread('D:/ICS/simplyLicenceREC/c.jpg')
+    card_img  = cv2.imread('/img/c.jpg')
     card_img = smalladj(card_img)
     predict_result = []
     roi = None

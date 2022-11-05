@@ -39,22 +39,6 @@ def RecSingleCar(img):
 
 
 
-opt = detectout.parse_opt()
-setattr(opt,'source',1)
-imlist = detectout.run(**vars(opt))
-
-for i in imlist:
-    result = ocr.ocr(i, cls=True)
-    car = resultprocess(result)
-    for i in car:
-        all.append(i)
-
-
-
-
-
-
-
 
 # 显示结果
 # from PIL import Image

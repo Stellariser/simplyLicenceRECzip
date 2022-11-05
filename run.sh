@@ -1,0 +1,1 @@
+python modeldeploy.py --weights best.pt --source ./testimg --save-txt --device 0
